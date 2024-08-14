@@ -17,7 +17,7 @@ DbCon();
 
 app.use(cors({
   credentials: true,
-  origin: 'http://localhost:5173'  // Replace with your frontend URL
+  origin: 'https://notes-eight-bice.vercel.app/login'  // Replace with your frontend URL
 }));
 app.use(cookieParser());
 app.use(express.json());
